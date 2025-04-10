@@ -4,89 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Colour Trending Games - Official</title>
-    
-    <!-- ✅ Favicon (केवल एक लिंक रखा गया) -->
     <link rel="icon" type="image/png" href="https://i.imgur.com/vNNJXdb.png">
-
-    <meta name="google-site-verification" content="b9bwC_qRLzryYVR113myeO3WgxU-s6rzsBYZzMCe-t8" />
     <meta name="description" content="Teer Win Login - Access your account to enjoy exclusive bonuses and daily promo codes. Join now and start winning big!">
     <meta name="keywords" content="teer win login, teer win register, online gaming, free bonus, daily promo codes">
     <meta name="author" content="SakeelB">
     <meta name="robots" content="index, follow">
 
     <style>
-    
-      body {
-          background: url('https://raw.githubusercontent.com/Sakeelb/All-Yono-Games-List-Officel/refs/heads/main/New%20Folder/images.jpeg') no-repeat center center fixed;
-          background-size: cover;
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-          color: white;
-          height: 100vh;
-          overflow-y: auto;  /* ✅ SCROLL PROBLEM FIXED */
-          display: flex;
-          flex-direction: column;
-      }
-    
-    .container, .game-container {
-        width: 100%;
-        max-width: 450px;
-        margin: auto;
-    }
-    
-    .game-container {
-        flex: 1;
-        overflow-y: auto;
-        padding-bottom: 20px;
-        padding-top: 10px;
-    }
-    
-    .game-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        background: linear-gradient(45deg, yellow, orange);
-        color: black;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 14px 20px;
-        border-radius: 10px;
-        width: 92%;
-        margin: 10px auto;
-        border: none;
-        box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
-        transition: 0.3s;
-    }
-    
-    .game-btn:hover {
-        background-color: orange;
-        transform: scale(1.05);
-    }
-    
-    .game-btn img {
-        height: 35px;
-        width: 35px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
+        body {
+            background: url('https://raw.githubusercontent.com/Sakeelb/All-Yono-Games-List-Officel/refs/heads/main/New%20Folder/images.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            height: 100vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container, .game-container {
+            width: 95%;
+            max-width: 500px;
+            margin: 10px auto;
+        }
+
+        .game-container {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 20px;
+            padding-top: 10px;
+            width: 100%;
+        }
+
+        .game-btn {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-decoration: none;
+            background: linear-gradient(45deg, yellow, orange);
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px 16px;
+            border-radius: 8px;
+            width: 100%;
+            margin: 8px auto;
+            border: none;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .game-btn:hover {
+            background-color: orange;
+            transform: scale(1.02);
+        }
+
+        .game-btn img {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .top-header {
+            background-color: #000;
+            padding: 5px 0; /* Reduced vertical padding even further */
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            width: 100%;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1); /* Reduced shadow */
+        }
+
+        .search-container {
+            display: inline-flex;
+            align-items: center;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 999px;
+            padding: 4px 10px; /* Slightly reduced padding */
+            background: white;
+            border: 1px solid #ddd; /* Very light border */
+            margin: 0 auto;
+        }
+
+        .search-container svg {
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            color: #888; /* Even lighter icon */
+        }
+
+        .search-container input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 11px;
+            background: transparent;
+            color: #444; /* Lighter text */
+        }
+
+        /* Added mobile-specific adjustments */
+        @media (max-width: 480px) {
+            .top-header {
+                padding: 4px 0; /* Minimal padding for the smallest screens */
+            }
+
+            .search-container {
+                width: 95%;
+                padding: 3px 6px; /* Minimal padding for the smallest screens */
+            }
+
+            .search-container svg {
+                width: 13px;
+                height: 13px;
+            }
+
+            .search-container input {
+                font-size: 10px; /* Tiny font on very small screens */
+            }
+        }
     </style>
 </head>
 
 <body>
-  <!-- Top Black Header with Search Bar -->
-<div style="background-color: #000; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 100;">
-  <div style="display: inline-flex; align-items: center; width: 90%; max-width: 500px; border-radius: 999px; padding: 10px 20px; background: white; border: 2px solid; border-image: linear-gradient(to right, #00f, #f0f) 1;">
-
-    <!-- Search Icon -->
-    <svg style="width: 20px; height: 20px; margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="gray">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m1.4-5.4a7 7 0 11-14 0 7 7 0 0114 0z" />
-    </svg>
-
-    <!-- Input Field -->
-    <input id="searchBar" type="text" placeholder="Search for a document" style="flex: 1; border: none; outline: none; font-size: 16px; background: transparent;">
-  </div>
+    <!-- Top Black Header with Search Bar -->
+    <div class="top-header">
+        <div class="search-container">
+            <!-- Search Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <!-- Input Field -->
+            <input id="searchBar" type="text" placeholder="Search games..." />
+        </div>
 
     <div class="game-container">
         <a href="https://invite.bfgame9.com/?code=AP2KXES" class="game-btn">
@@ -243,20 +298,28 @@
             567SLOTS BETTINING GAME - OFFICIAL
         </a>        
         </div>
+        </div>
+    </div>
     <script>
-  document.getElementById("searchBar").addEventListener("input", function () {
-    const searchValue = this.value.toLowerCase();
-    const buttons = document.querySelectorAll(".game-btn");
+        document.getElementById("searchBar").addEventListener("input", function () {
+            const searchValue = this.value.toLowerCase();
+            const buttons = document.querySelectorAll(".game-btn");
+            let visibleButtons = 0; // count visible buttons
 
-    buttons.forEach(function (btn) {
-      const text = btn.textContent.toLowerCase();
-      if (text.includes(searchValue)) {
-        btn.style.display = "flex"; // show
-      } else {
-        btn.style.display = "none"; // hide
-      }
-    });
-  });
-</script>
+            buttons.forEach(function (btn) {
+                if (visibleButtons < 10) { // Limit to 10 visible buttons
+                    const text = btn.textContent.toLowerCase();
+                    if (text.includes(searchValue)) {
+                        btn.style.display = "flex";
+                        visibleButtons++;
+                    } else {
+                        btn.style.display = "none";
+                    }
+                } else {
+                    btn.style.display = "none"; // Hide extra buttons
+                }
+            });
+        });
+    </script>
 </body>
 </html>
